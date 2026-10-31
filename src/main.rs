@@ -50,7 +50,7 @@ fn command_exit(_registry: &CommandRegistry) -> Result<(), Box<dyn Error>> {
     println!("Closing the Pokedex... Goodbye!");
     process::exit(0);
 }
-
+//new function to display help information
 // 2. Nutzt direkt die übergebene Registry statt get_commands()
 fn command_help(registry: &CommandRegistry) -> Result<(), Box<dyn Error>> {
     println!();
